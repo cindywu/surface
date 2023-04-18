@@ -1,7 +1,7 @@
-export default function Home(){
+import Dashboard from '../components/dashboard'
+
+export default function Index() {
   return (
-    <div className={"pt-40 text-6xl w-screen flex justify-around"}>
-      <div>早安世界</div>
-    </div>
+    <Dashboard/>
   )
 }
